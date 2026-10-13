@@ -1,0 +1,16 @@
+{
+  "input_rows": 73,
+  "valid_rows": 53,
+  "invalid_rows": 20,
+  "duplicate_transaction_id_groups": 2,
+  "rows_with_duplicate_transaction_id": 4,
+  "possible_duplicate_transaction_groups": 1,
+  "rows_in_possible_duplicate_transactions": 2,
+  "total_revenue": "81851.00",
+  "revenue_definition": "Sum of amounts for valid paid rows only; invalid and duplicate-flagged rows are excluded.",
+  "reconciliation": {
+    "input_rows_equals_valid_plus_invalid": true,
+    "cleaned_csv_rows": 73,
+    "report_counts_reconcile": true
+  }
+}
